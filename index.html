@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Video Recommendation</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1>VIPLAYER</h1>
+            </div>
+            <ul>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#Lyrics">Lyrics</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <aside>
+            <ul id="video-list">
+                <a href="#lyrics" id="Lyrics" class="subtitle">MUSIC VIDEOS</a>
+                <li>
+                    <img src="./assets/nf1.png" alt="">
+                    <div class="button">
+                        <p class="song-title">Just like you <span>By </span>NF</p>
+                        <img class="video-card" data-src="./assets/NF - JUST LIKE YOU (Music Video).mp4"
+                            src="./assets/player-play.png" class="play__btn" onclick="playVideo()">
+                        <img src="./assets/player-pause.png" class="pause__btn" onclick="pauseVideo()">
+                    </div>
+                </li>
+                <li>
+                    <img src="./assets/little.png" alt="">
+                    <div class="button">
+                        <p class="song-title">Little do you know <span>By </span>Alex & Sierra</p>
+                        <img class="video-card" data-src="./assets/Alex & Sierra - Little Do You Know (Video).mp4"
+                            src="./assets/player-play.png" class="play__btn" onclick="playVideo()">
+                            <img src="./assets/player-pause.png" class="pause__btn" onclick="pauseVideo()">
+                    </div>
+                </li>
+                <li>
+                    <img src="./assets/notAfraid.png" alt="">
+                    <div class="button">
+                        <p class="song-title">Not Afraid <span>By </span>Eminem</p>
+                        <img class="video-card" data-src="./assets/Eminem - Not Afraid.mp4"
+                            src="./assets/player-play.png" class="play__btn" onclick="playVideo()">
+                            <img src="./assets/player-pause.png" class="pause__btn" onclick="pauseVideo()">
+                    </div>
+                </li>
+                <li>
+                    <img src="./assets/motto.png" alt="">
+                    <div class="button">
+                        <p class="song-title">Motto <span>By </span>NF</p>
+                        <img class="video-card" data-src="./assets/NF - MOTTO.mp4" src="./assets/player-play.png"
+                            class="play__btn" onclick="playVideo()">
+                            <img src="./assets/player-pause.png" class="pause__btn" onclick="pauseVideo()">
+                    </div>
+                </li>
+                <a href="#lyrics" id="Lyrics" class="subtitle">LYRICS</a>
+                <li>
+                    <img src="./assets/images.png" alt="">
+                    <div class="button">
+                        <p class="song-title">7 years <span>By </span> Lukas Graham</p>
+                        <img class="video-card" data-src="./assets/Lukas Graham - 7 Years (Lyrics).mp4"
+                            src="./assets/player-play.png" class="play__btn" onclick="playVideo()">
+                            <img src="./assets/player-pause.png" class="pause__btn" onclick="pauseVideo()">
+                    </div>
+                </li>
+                <li>
+                    <img src="./assets/images.png" alt="">
+                    <div class="button">
+                        <p class="song-title">7 years <span>By </span> Lukas Graham</p>
+                        <img class="video-card" data-src="./assets/Lukas Graham - 7 Years (Lyrics).mp4"
+                            src="./assets/player-play.png" class="play__btn" onclick="playVideo()">
+                            <img src="./assets/player-pause.png" class="pause__btn" onclick="pauseVideo()">
+                    </div>
+                </li>
+                <li>
+                    <img src="./assets/images.png" alt="">
+                    <div class="button">
+                        <p class="song-title">7 years <span>By </span> Lukas Graham</p>
+                        <img class="video-card" data-src="./assets/Lukas Graham - 7 Years (Lyrics).mp4"
+                            src="./assets/player-play.png" class="play__btn" onclick="playVideo()">
+                            <img src="./assets/player-pause.png" class="pause__btn" onclick="pauseVideo()">
+                    </div>
+                </li>
+                <li>
+                    <img src="./assets/images.png" alt="">
+                    <div class="button">
+                        <p class="song-title">7 years <span>By </span> Lukas Graham</p>
+                        <img class="video-card" data-src="./assets/Lukas Graham - 7 Years (Lyrics).mp4"
+                            src="./assets/player-play.png" class="play__btn" onclick="playVideo()">
+                            <img src="./assets/player-pause.png" class="pause__btn" onclick="pauseVideo()">
+                    </div>
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <video id="video-player" controls>
+                <source src="" type="video/mp4">
+            </video>
+            <marquee behavior="" direction=""><h1 id="title"></h1></marquee>
+        </main>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
